@@ -11,7 +11,8 @@ public sealed class ThreeSumTests
     {
         var sut = new ThreeSum();
         var nums = new[] { -1, 0, 1, 2, -1, -4 };
-
+        var max = sut.CharacterReplacement("AAABABCAAAAA", 1);
+        
         var actual = NormalizeTriplets(sut.ThreeSums(nums));
 
         var expected = new HashSet<string>
