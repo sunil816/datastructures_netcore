@@ -7,7 +7,7 @@ namespace DataStructures.Trees;
    has both p and q as descendants (where we allow a node to be a descendant of itself).”
    
  */
-public class TreeNode
+public partial class TreeNode
 {
   public int val { get; private set; }
   public TreeNode? left { get; private set; }
