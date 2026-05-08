@@ -7,9 +7,9 @@ public class TaskCount
 }
 public class GenericSolutions
 {
+    //TODO: Need to implement
     public int LeastInterval(char[] tasks, int n)
     {
-        
         Dictionary<char, int> taskIntervalRequired = new Dictionary<char, int>();
         foreach (var taskName in tasks)
         {
@@ -33,5 +33,6 @@ public class GenericSolutions
         }
         taskCounts.Sort((t1, t2) => t1.Count.CompareTo(t2.Count));
         
+        return -1;
     }
 }
